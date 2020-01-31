@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://kit.fontawesome.com;">-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://kit.fontawesome.com https://kit-free.fontawesome.com; script-src 'self' https://kit.fontawesome.com">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="../scss/main.css" />
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <div class="menu-btn">
+            <span class="menu-btn__burger">
+
+            </span>
+        </div>
+
+        <nav class="nav">
+            <ul class="menu-nav">
+                <li class="menu-nav__item">
+                    <a href="Index.html" class="menu-nav__link">
+                        Home
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="about.html" class="menu-nav__link">
+                        About Me
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="projects.html" class="menu-nav__link">
+                        Projects
+                    </a>
+                </li>
+                <li class="menu-nav__item active">
+                    <a href="contact.html" class="menu-nav__link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2>Contact Me...</h2>
+
+            <div class="contact_list">
+                <div class="contact_email">
+                    <i class="fas fa-envelope"></i> Email
+                    <div class="text-secondary">kojakangas@drury.edu</div>
+                </div>
+                <div class="contact_phone">
+                    <i class="fas fa-mobile-alt"></i> Phone
+                    <div class="text-secondary">+1 (888)-OHBRAIN</div>
+                </div>
+                <div class="contact_address">
+                    <i class="fas fa-marker-alt"></i> Location
+                    <div class="text-secondary">100 Meepfish Way</div>
+                </div>
+            </div>
+
+            <div class="social-icons">
+                <a href="#!">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+            </div>
+
+            <footer>&copy; 2020 Yours Truly</footer>
+        </section>
+    </main>
+    <!-- You can also require other files to run in this process -->
+    <script src="https://kit.fontawesome.com/9f607e6065.js" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

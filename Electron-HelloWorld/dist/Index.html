@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!--<meta http-equiv="Content-Security-Policy" content="script-src 'self' https://kit.fontawesome.com;">-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://kit.fontawesome.com https://kit-free.fontawesome.com; script-src 'self' https://kit.fontawesome.com">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="../scss/main.css" />
+    <title>Resume Box</title>
+</head>
+<body>
+    <header>
+        <div class="menu-btn">
+            <span class="menu-btn__burger">
+
+            </span>
+        </div>
+
+        <nav class="nav">
+            <ul class="menu-nav">
+                <li class="menu-nav__item active">
+                    <a href="Index.html" class="menu-nav__link">
+                        Home
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="about.html" class="menu-nav__link">
+                        About Me
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="projects.html" class="menu-nav__link">
+                        Projects
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="contact.html" class="menu-nav__link">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            <h2>Hello there!</h2>
+            <h1 class="home__name">
+                Ask me
+                <span class="home__name--addition">
+                anything
+                </span>
+            </h1>
+            <h2>
+                Software Engineer
+            </h2>
+
+            <div class="social-icons">
+                <a href="#!">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#!">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+            </div>
+
+            <footer>&copy; 2020 Kieran Ojakangas</footer>
+        </section>
+    </main>
+    <!-- You can also require other files to run in this process -->
+    <script src="https://kit.fontawesome.com/9f607e6065.js" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

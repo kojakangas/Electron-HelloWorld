@@ -1,0 +1,15 @@
+{
+  "name": "electron-hello-world",
+  "version": "0.0.1",
+  "description": "Electron-HelloWorld, Electron test in VS",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": {
+    "name": "Kieran Ojakangas"
+  },
+  "dependencies": {
+    "electron": "^3.0.6"
+  }
+}

@@ -1,0 +1,3 @@
+C:\Users\KO054202\source\repos\Electron-HelloWorld\Electron-HelloWorld\obj\Debug\Electron-HelloWorld.njsprojAssemblyReference.cache
+C:\Users\KO054202\source\repos\Electron-HelloWorld\Electron-HelloWorld\obj\Debug\Electron-HelloWorld.njsproj.CoreCompileInputs.cache
+C:\Users\KO054202\source\repos\Electron-HelloWorld\Electron-HelloWorld\bin\Microsoft.NodejsTools.WebRole.dll
